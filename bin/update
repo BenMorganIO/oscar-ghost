@@ -8,9 +8,10 @@ git pull --rebase &&\
 sass -v || gem install sass --no-ri --no-rdoc &&\
 sass assets/sass/application.scss:assets/css/application.css --style compressed  &&\
 uglifyjs -V || npm install uglify-js -g &&\
-uglifyjs assets/js/gallery.js \
+uglifyjs assets/js/jquery.min.js \
          assets/js/prism.js \
          assets/js/oscar.js \
+         assets/js/gallery.js \
          -o assets/js/application.js \
          --source-map assets/js/application.js.map \
          --source-map-root https://benmorgan.io/assets
