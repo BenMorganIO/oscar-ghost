@@ -12,5 +12,5 @@ uglifyjs assets/js/gallery.js \
          assets/js/prism.js \
          assets/js/oscar.js \
          -o assets/js/application.js \
-         --source-map application.js.map \
+         --source-map assets/js/application.js.map \
          --source-map-root https://benmorgan.io/assets
