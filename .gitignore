@@ -47,4 +47,4 @@ bower_components
 
 # UglifierJS Files
 /assets/js/application.js
-/assets/js/application.min.js
+/assets/js/application.js.map
